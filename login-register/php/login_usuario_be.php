@@ -16,7 +16,7 @@
     }else{ 
         echo '
             <script>
-                alert("Usuario no existe porfavor verifiqaue los datos introducidos");
+                alert("Usuario NO existe porfavor verifique los datos introducidos");
                 window.location ="../index.php";
             </script>
         ';
