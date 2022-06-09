@@ -7,14 +7,20 @@ $query->bind_param("i", $id);
 $query->execute();
 $resultado = $query->get_result();
 ?>
+<header>
+    <nav class="navbar" style="background-color: #6f42c1">
+        <div class="container-fluid">
+            <span class="navbar-text " >
+                 <h2 class="text-white" >INFORMACION DE USUARIOS</h2>
+            </span>
+        </div>
+    </nav>
+</header>
 
-<div>
-    <div>
-        <h1>Informacion sobre usuario</h1>
-    </div>
-    <div>
-        <table class="table">
-            <thead>
+<div class="justify-contet-center">
+    <div class="container-md"><br><br>
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
@@ -34,14 +40,14 @@ $resultado = $query->get_result();
                         <td><?php echo $usuario["correo"] ?></td>
                         <td><?php echo $usuario["usuario"] ?></td>
                         <td><?php echo $usuario["contrasena"] ?></td>
-                        <td>
+                        <td class="aline-center">
                     </tr>
                 <?php } ?>
             </tbody>
         </table>
 
         <div class="form-group">
-            <a href="listar.php">Volver</a>
+            <a class="btn btn-md btn-outline-secondary" href="listar.php">Volver</a>
         </div>
     </div>
 </div>
