@@ -30,7 +30,7 @@ if (!$usuarios) {
     </header><br><br>
     <div class="container main" style="text-align:center;">
         <div class="row texto">
-            <h1>Actualize Registro</h1>
+            <h1>Actualice Registro</h1>
                 <form class="texto"action="actualizar.php" method="POST">
                     <input type="hidden" name="id" value="<?php echo $usuarios["id"] ?>">
                     <div class="form-group">
@@ -67,10 +67,6 @@ if (!$usuarios) {
             
         </div>
     </div>
-    <footer>
-        <p>Organizacion y Administracion de Centros de Computo</p>
-        <p>Proyecto Final - FES Aragon - UNAM</p>
-        <p>Grupo: 2809</p>
-    </footer>
+    <?php include_once "piePagina.php" ?>
 </body>
 <?php?>
