@@ -51,7 +51,7 @@ $resultado = $query->get_result();
         </table>
 
         <div class="form-group">
-            <a class="btn btn-md btn-outline-secondary" href="listar.php">Volver</a>
+            <a class="btn btn-md btn-outline-secondary" href="listar.php" style="display:block; margin-left:400px;margin-right:400px;">Volver</a>
         </div>
     </div>
 </div>
