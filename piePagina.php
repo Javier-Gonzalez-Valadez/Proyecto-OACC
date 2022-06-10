@@ -1,6 +1,6 @@
 </main>
 <footer>
-    <h1>ponemos algo</h1>
+    <footer>PONEMOS ALGO</footer>
 </footer>
 </body>
 </html>

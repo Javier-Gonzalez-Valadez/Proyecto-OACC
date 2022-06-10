@@ -1,0 +1,54 @@
+body{
+    background-image: url('imagenes/BG5.jpg');
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+    height: 850px; 
+    
+}
+
+h1{
+    color: aqua;
+}
+
+.container{
+    margin-top:50px;
+    width: 90%;
+}
+
+.texto{
+    color: #fff; 
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.main{
+    backdrop-filter: blur(5px);
+    background-color: rgba(93, 0, 255,0.05);
+    border-radius: 5%;
+    padding-left: 50px;
+    
+}
+.format{
+    color: #fff;
+    text-align: center;
+}
+
+.list{
+    text-align: left;
+    display:inline-block; 
+}
+
+h3{
+    color: rgba(93, 0, 255,0.75);
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+body{
+    background-image: url('imagenes/BG2.jpg');
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+    height: 850px; 
+}
+
+.texto{
+    color: #fff;
+}
+
+.main{
+    outline: 0.5px solid white;
+    backdrop-filter: blur(10px);
+    padding-top: 100px;
+    background-color: rgba(30, 18, 117, 0.3);
+    width: 55%;
+    margin-top: -40px;
+    border-radius: 20%;
+
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+.vacio{
+    display: inline-block;
+    color: rgba(0   ,0 ,0, 0);
+}
+
+button{
+    margin-top: 30px;;
+    margin-bottom: 80px;
+}
+
+footer{
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #fff;
+    margin-top:40px
+}
+
+.navbar{
+    backdrop-filter: blur(1px);
+    background-color: rgba(30, 5, 170,0.2);
+}
