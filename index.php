@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="cabeza">
-        <h1 style="padding-top:10px;padding-left:60px;">CRUD - OACC</h1>
+        <h1 style="padding-top:10px;padding-left:60px;color:aqua;">CRUD - OACC</h1>
         <nav class="navbar navbar-expand-lg" style=padding-left:60px;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="formulario_registrar.php" style="color: #fff;">Registrar Nuevos Usuarios</a>
                         </li>
-                        <li class="nav-item texto">
+                        <li class="nav-item texto" style="padding-left:25px;">
                             <a class="nav-link" style="color: #fff;" href="listar.php">Editar Registros</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown" style="padding-left:25px;">
                             <a class="nav-link dropdown-toggle"  style="color: #fff;" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Más Opciones
                             </a>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div style="widt:100%">
-                    <h3 class="format">CRUD</h3> 
+                    <h3 class="format" style="color: gold;">CRUD</h3> 
                 </div>
                 <div style="widt:100%" class="format">
                     <p>Insertar</p>
@@ -67,7 +67,7 @@
                     <p>Modificar</p>
                     <p>Eliminar</p>
                 </div>
-                <div class="" style="width:100%;text-align:center;"><button><a  href="listar.php">CRUD</a></button></div>
+                <div class="" style="width:100%;text-align:center;"><button style="padding: 10px 45px;border-radius:20%;"><a  href="listar.php" style="text-decoration:none;color:rgba(0, 17, 255, 0.982)">CRUD</a></button></div>
             </div>
         </div>
     </div>

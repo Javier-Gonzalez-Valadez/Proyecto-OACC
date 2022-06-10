@@ -7,10 +7,6 @@ body{
     
 }
 
-h1{
-    color: aqua;
-}
-
 .container{
     margin-top:50px;
     width: 90%;
@@ -20,7 +16,7 @@ h1{
     color: #fff; 
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    
+    font-weight: bold;
 }
 
 .main{
@@ -51,4 +47,5 @@ a{
 button{
     padding: 5px 15px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
